@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2FA Verification</title>
+</head>
+<body>
+    <h2>2FA Verification</h2>
+    <form action="/verify_2fa" method="POST">
+        <label for="2fa_code">Enter 2FA Code:</label>
+        <input type="text" name="2fa_code" required>
+        <br><br>
+        <input type="submit" value="Verify Code">
+    </form>
+</body>
+</html>
